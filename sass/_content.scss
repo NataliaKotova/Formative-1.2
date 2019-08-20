@@ -28,11 +28,7 @@ h2{
   margin:2*$margin;
 }
 
-.content{
-  padding:0px;
-}
 .content__about--section{
-  padding:0px 25px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -44,6 +40,24 @@ h2{
   width:100px;
 }
 
+.content__about--highlight-right{
+  border-right:1px solid $tertiaryColor;
+  padding-right:5px;
+  margin-right:20px;
+  .content__about--section {
+    text-align:right;
+    padding-left:60px;
+  }
+}
+.content__about--highlight-left{
+  border-left:1px solid $tertiaryColor;
+  padding-left:5px;
+  margin-left:20px;
+  .content__about--section{
+    text-align:left;
+    padding-right:60px;
+  }
+}
 .content__about--line{
   border-top:2px solid $tertiaryColor;
 }
@@ -65,4 +79,15 @@ h2{
     font-weight:bold;
   }
 }
+.content__about--columns{
+  position:relative;
+ img{
+   width:50%;
+   float:left;
+ }
+ .content__about--section-para{
+   
+ }
+}
+
 //end of styles for mobile
