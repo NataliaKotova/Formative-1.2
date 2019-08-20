@@ -120,7 +120,6 @@ h1 {
   margin: 15px; }
 
 h2 {
-  text-align: center;
   font-size: 24px;
   font-weight: bolder;
   margin: 30px; }
@@ -174,9 +173,12 @@ h2 {
     width: 50%;
     float: left; }
 
+.content__booking {
+  padding-left: 30px;
+  padding-right: 30px; }
+
 .content__booking--heading2 {
-  font-weight: bolder;
-  text-align: left; }
+  font-weight: bolder; }
 
 .content__booking--heading3 {
   color: #cbae86; }

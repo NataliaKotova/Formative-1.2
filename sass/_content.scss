@@ -22,7 +22,7 @@ h1{
 }
 
 h2{
-  text-align: center;
+  //text-align: center;
   font-size:24px;
   font-weight:bolder;
   margin:2*$margin;
@@ -89,10 +89,12 @@ h2{
    
  }
 }
-
+.content__booking{
+  padding-left:30px;
+  padding-right:30px;
+}
 .content__booking--heading2{
   font-weight:bolder;
-  text-align: left;
 }
 .content__booking--heading3{
   color:$tertiaryColor;
