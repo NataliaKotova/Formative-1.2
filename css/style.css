@@ -1,14 +1,12 @@
 .header__logo {
   width: 241px; }
 
-/*images on artists page*/
 .content__artists--container {
   position: relative;
   margin-bottom: 20px;
   height: 275px;
   width: 100%; }
 
-/*image on the right side*/
 .content__artists--image-right {
   width: 80%;
   float: right; }
@@ -19,7 +17,19 @@
   color: black;
   text-align: right; }
 
-/*images on athe left side*/
+.content__artists--background {
+  position: absolute;
+  z-index: -1;
+  background-color: #cbae86;
+  width: 60%;
+  height: 100%; }
+
+.content__artists--background-right {
+  right: 20px; }
+
+.content__artists--background-left {
+  left: 20px; }
+
 .content__artists--image-left {
   width: 80%;
   float: left;
@@ -30,6 +40,11 @@
   left: 20px;
   color: black;
   text-align: left; }
+
+.content__artists--name-right,
+.content__artists--name-left {
+  margin: 10px;
+  font-weight: bold; }
 
 .clearFix {
   clear: both;
@@ -74,6 +89,14 @@ nav {
     top: 20px;
     right: 20px; }
 
+.fab {
+  color: #cbae86;
+  font-size: 24px;
+  vertical-align: middle;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px; }
+
 .header__topnav {
   padding: 20px; }
 
@@ -102,6 +125,9 @@ h2 {
   font-weight: bolder;
   margin: 30px; }
 
+.content {
+  padding: 0px; }
+
 .content__about--section {
   padding: 0px 25px;
   margin-top: 25px;
@@ -115,6 +141,20 @@ h2 {
 
 .content__about--line {
   border-top: 2px solid #cbae86; }
+
+.content__contact {
+  padding: 30px; }
+
+.content__contact--contact-info {
+  margin-bottom: 20px; }
+
+.content__contact--social-media {
+  margin-bottom: 20px; }
+
+.content__contact--hours {
+  margin-bottom: 20px; }
+  .content__contact--hours td {
+    font-weight: bold; }
 
 @media only screen and (min-width: 600px) {
   .header .fas {
@@ -260,7 +300,7 @@ h1{
   height: 35px;
   border-radius: 6px;
   font-size: 18px;
-  font-weight: bolder;
+  font-weight: bold;
   padding: 0px;
   border: none;
   display: block;
