@@ -174,6 +174,13 @@ h2 {
     width: 50%;
     float: left; }
 
+.content__booking--heading2 {
+  font-weight: bolder;
+  text-align: left; }
+
+.content__booking--heading3 {
+  color: #cbae86; }
+
 @media only screen and (min-width: 600px) {
   .header .fas {
     display: none; }
