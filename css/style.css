@@ -1,6 +1,41 @@
 .header__logo {
   width: 241px; }
 
+/*images on artists page*/
+.content__artists--container {
+  position: relative;
+  margin-bottom: 20px;
+  height: 275px;
+  width: 100%; }
+
+/*image on the right side*/
+.content__artists--image-right {
+  width: 80%;
+  float: right; }
+
+.content__artists--name-right {
+  position: absolute;
+  right: 20px;
+  color: black;
+  text-align: right; }
+
+/*images on athe left side*/
+.content__artists--image-left {
+  width: 80%;
+  float: left;
+  margin-left: 25px; }
+
+.content__artists--name-left {
+  position: absolute;
+  left: 20px;
+  color: black;
+  text-align: left; }
+
+.clearFix {
+  clear: both;
+  content: "";
+  display: block; }
+
 nav {
   padding: 45px;
   width: 100%;
@@ -219,6 +254,18 @@ h1{
   }
 
   */
+.content__artists--button {
+  background: #cbae86;
+  width: 129px;
+  height: 35px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 0px;
+  border: none;
+  display: block;
+  margin: 20px auto; }
+
 body {
   background: #121212;
   color: #ffffff; }
