@@ -17,6 +17,10 @@
   color: black;
   text-align: right; }
 
+.content__artists--image-right-croped {
+  width: 80%;
+  float: left; }
+
 .content__artists--background {
   position: absolute;
   z-index: -1;
@@ -120,19 +124,34 @@ h1 {
   margin: 15px; }
 
 h2 {
+  text-align: center;
   font-size: 24px;
   font-weight: bolder;
-  margin: 30px; }
+  margin: 30px;
+  margin: 0 auto; }
 
-.content__about--section {
-  margin-top: 25px;
-  margin-bottom: 25px; }
+.content__about--footer {
+  width: 90%;
+  display: block;
+  margin: 0 auto; }
+
+.content__about--footer-para {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center; }
 
 .header__topnav--horizontal-menu {
   display: none; }
 
 .header__logo {
   width: 100px; }
+
+.content__about--right-align {
+  padding-right: 5px;
+  margin-right: 20px; }
+  .content__about--right-align .content__about--section {
+    text-align: right;
+    padding-left: 60px; }
 
 .content__about--highlight-right {
   border-right: 1px solid #cbae86;
@@ -151,7 +170,13 @@ h2 {
     padding-right: 60px; }
 
 .content__about--line {
-  border-top: 2px solid #cbae86; }
+  width: 100px;
+  height: 0;
+  border: 1px solid #cbae86;
+  margin: 3px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px; }
 
 .content__contact {
   padding: 30px; }
@@ -173,14 +198,61 @@ h2 {
     width: 50%;
     float: left; }
 
+.content__about--columns img {
+  margin-top: 110px; }
+
 .content__booking {
-  padding-left: 30px;
-  padding-right: 30px; }
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  font-size: 17px; }
+
+.content__about--heading-left {
+  text-align: left;
+  margin: 20px; }
+
+.content__about--heading-right {
+  text-align: right;
+  margin: 20px; }
+
+.content__about--custom-tattoos {
+  width: 80%;
+  margin-left: 20px;
+  text-align: left; }
 
 .content__booking--heading2 {
   font-weight: bolder; }
 
 .content__booking--heading3 {
+  color: #cbae86; }
+
+.content__booking--form-label {
+  color: #cbae86; }
+
+.content__booking--heading2,
+.content__booking--para {
+  margin-bottom: 20px; }
+
+input, textarea {
+  background-color: #2b2b2b;
+  border: none;
+  border-radius: 6px; }
+
+.content__booking--form-input {
+  height: 35px;
+  width: 100%; }
+
+.content__booking--form-message {
+  width: 100%;
+  background: #2b2b2b; }
+
+.content__booking--form-checkbox,
+.content__booking--form-input,
+.content__booking--form-message {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.content__booking--form-checkbox {
   color: #cbae86; }
 
 @media only screen and (min-width: 600px) {
@@ -332,6 +404,20 @@ h1{
   border: none;
   display: block;
   margin: 20px auto; }
+
+.content__booking--button {
+  background: #cbae86;
+  width: 129px;
+  height: 35px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px;
+  border: none;
+  display: block;
+  margin: 20px auto;
+  color: white;
+  text-transform: uppercase; }
 
 body {
   background: #121212;

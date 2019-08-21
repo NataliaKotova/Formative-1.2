@@ -11,4 +11,18 @@
     display: block;
     margin:20px auto;
 }
+.content__booking--button{
+    background:$tertiaryColor;
+    width:129px;
+    height:35px;
+    border-radius:6px;
+    font-size:18px;
+    font-weight:bold;
+    padding:0px;
+    border:none;
+    display: block;
+    margin:20px auto;
+    color: white;
+    text-transform: uppercase;   
+}
 

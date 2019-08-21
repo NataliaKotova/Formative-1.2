@@ -21,7 +21,10 @@
   color:black;
   text-align:right;
 }
-
+.content__artists--image-right-croped{
+  width:80%;
+  float:left;
+}
 .content__artists--background{
   position:absolute;
   z-index:-1;
