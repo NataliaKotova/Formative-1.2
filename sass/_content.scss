@@ -101,7 +101,6 @@ h2{
   }
 }
 .content__about--columns{
-  position:relative;
  img{
    width:50%;
    float:left;
@@ -170,4 +169,9 @@ input, textarea{
 .content__booking--form-checkbox{
   color: $tertiaryColor;
 }
+
+.content__desktop{
+  display:none;
+}
 //end of styles for mobile
+
