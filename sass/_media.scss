@@ -1,6 +1,12 @@
 //styles for desktop
 @media only screen and (min-width:600px){
-.header {
+  .container{
+    margin-top:20px;
+    width:85%;
+    margin:0 auto;
+  }
+
+  .header {
     .fas{
         display:none;
     }
@@ -53,6 +59,30 @@
     img {margin:0;
     }
   }
+
+  //artists page
+
+  .content__artists--image-right,
+  .content__artists--image-left
+  {
+    width:500px;
+  }
+  .content__artists--name-right{
+    right:60px;
+    font-size:38px;
+  }
+  .content__artists--button{
+    font-size:26px;
+    width:200px;
+    height:60px;
+    bottom:0;
+  }
+  .content__artists--para{
+    padding-top:120px;
+    padding-left:18%;
+  }
+
+
 }//end of media 
 
 .clearFix{
@@ -66,9 +96,7 @@
 /*
 
 
-.container{
-  margin-top:20px;
-}
+
 .content{
   width:100%;
 }

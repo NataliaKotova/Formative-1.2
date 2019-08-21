@@ -256,7 +256,38 @@ input, textarea {
 .content__desktop {
   display: none; }
 
+.content__artists--button {
+  background: #cbae86;
+  width: 129px;
+  height: 35px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px;
+  border: none;
+  display: block;
+  margin: 20px auto; }
+
+.content__booking--button {
+  background: #cbae86;
+  width: 129px;
+  height: 35px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px;
+  border: none;
+  display: block;
+  margin: 20px auto;
+  color: white;
+  text-transform: uppercase; }
+
 @media only screen and (min-width: 600px) {
+  .container {
+    margin-top: 20px;
+    width: 85%;
+    margin: 0 auto; }
+
   .header .fas {
     display: none; }
 
@@ -342,7 +373,25 @@ input, textarea {
     display: block; }
 
   .content__about--columns img {
-    margin: 0; } }
+    margin: 0; }
+
+  .content__artists--image-right,
+  .content__artists--image-left {
+    width: 500px; }
+
+  .content__artists--name-right {
+    right: 60px;
+    font-size: 38px; }
+
+  .content__artists--button {
+    font-size: 26px;
+    width: 200px;
+    height: 60px;
+    bottom: 0; }
+
+  .content__artists--para {
+    padding-top: 120px;
+    padding-left: 18%; } }
 .clearFix {
   clear: both;
   content: "";
@@ -351,9 +400,7 @@ input, textarea {
 /*
 
 
-.container{
-  margin-top:20px;
-}
+
 .content{
   width:100%;
 }
@@ -397,32 +444,6 @@ h1{
   }
 
   */
-.content__artists--button {
-  background: #cbae86;
-  width: 129px;
-  height: 35px;
-  border-radius: 6px;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 0px;
-  border: none;
-  display: block;
-  margin: 20px auto; }
-
-.content__booking--button {
-  background: #cbae86;
-  width: 129px;
-  height: 35px;
-  border-radius: 6px;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 0px;
-  border: none;
-  display: block;
-  margin: 20px auto;
-  color: white;
-  text-transform: uppercase; }
-
 body {
   background: #121212;
   color: #ffffff; }
