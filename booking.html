@@ -52,8 +52,7 @@
   <!--content-->
   <div class="content">
     <h1>Book a<br/> consultation</h1>
-    <div class="content__booking">
-      <h2 class="content__booking--heading2">Booking Info</h2>
+    <div class="content__booking--info">
       <h3 class="content__booking--heading3">Walk ins</h3>
       <p class="content__booking--para">We do walk in tattoos on the day whenever we can, the best thing to do
         is come into the shop for a quick chat and check our availability.
@@ -70,31 +69,33 @@
         to complete a parental consent form.
       </p>
     </div>
-    
-      <form class="content__booking">
-        <h2 class="content__booking--form-heading2">Booking Form</h2>
-        <div class="content__booking--container">
-        <label for="name" class="content__booking--form-label">Your name*</label>
-        <br/>
-        <input type="text" id="name" class="content__booking--form-input">
-        <br/>
-        <label for="mobile" class="content__booking--form-label">Mobile*</label>
-        <br/>
-        <input type="text" id="name" class="content__booking--form-input">
-        <br/>
-      </form>
-      
-        <label for="textarea" class="content__booking--form-label">Message</label>
-        <br/>
-        <textarea rows="4" cols="50" name="comment" form="usrform" class="content__booking--form-message">
-        </textarea>
-        <br/>
-        <input type="checkbox" name="age" class="content__booking--form-checkbox"> I confirm that I am 18 years or older<br>
-        <input type="submit" value="Submit" class="content__booking--button">
-      </div>
-      </div><!--end of content div-->
+    <div class="content__booking-flex">
+        <div class="content__booking--image">
+          <img src="images/booking.png" alt="book a consultation">
+        </div>
+        <form class="content__booking--form">
+            <h2 class="content__booking--form-heading2">Booking Form</h2>
+            <div class="content__booking--container">
+              <label for="name" class="content__booking--form-label">Your name*</label>
+              <br/>
+              <input type="text" id="name" class="content__booking--form-input">
+              <br/>
+              <label for="mobile" class="content__booking--form-label">Mobile*</label>
+              <br/>
+              <input type="text" id="name" class="content__booking--form-input">
+              <br/>
+              <label for="textarea" class="content__booking--form-label">Message</label>
+              <br/>
+              <textarea rows="4" cols="50" name="comment" form="usrform" class="content__booking--form-message">
+              </textarea>
+              <br/>
+              <input type="checkbox" name="age" class="content__booking--form-checkbox"> I confirm that I am 18 years or older<br>
+              <input type="submit" value="Submit" class="content__booking--button">
+          </div>
+          </form>
     </div>
-  </div>
+      
+    </div><!--end of content div-->
   </div>
 </body>
 </html>

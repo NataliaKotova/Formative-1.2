@@ -98,7 +98,25 @@
     padding-top:120px;
     padding-left:18%;
   }
+//booking page
 
+.content__booking-flex{
+  display:flex;
+  width:80%;
+  align-items: center;
+  margin:0 auto;
+}
+
+.content__booking--image{
+  display:inline-flex;
+  flex:50%;
+  width: auto;
+  padding:60px 60px 60px 0px;
+}
+.content__booking--form{
+  width:initial;
+  flex:50%;
+}
 
 }//end of media 
 
