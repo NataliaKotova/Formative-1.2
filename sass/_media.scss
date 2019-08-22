@@ -54,21 +54,38 @@
   }
   .content__desktop{
     display:block;
+    font-size: 24px;
   }
+
+  .clearFix__mobileonly {
+      clear: none;
+  }
+
+
   .content__about--columns{
     img {margin:0;
     }
   }
 
   //artists page
-
+  .content{
+    width:100%;
+  }
+  .content__artists{
+    margin-bottom:300px;
+  }
   .content__artists--image-right,
   .content__artists--image-left
   {
-    width:500px;
+    width:50%;
   }
   .content__artists--name-right{
     right:60px;
+    font-size:38px;
+  }
+  .content__artists--name-left{
+    left:60px;
+    top:130px;
     font-size:38px;
   }
   .content__artists--button{
@@ -91,15 +108,24 @@
     display: block;
 }
 
- 
+ //query for artists page. trying flexbox
+ @media only screen and (max-width:600px){
+  .content__flex-container {
+    flex-direction: column-reverse;
+  }
+  .content__flex-container-no-reverse {
+    flex-direction: column;
+  }
+  .content__artist-story {
+    display: none;
+  }
+}
 
 /*
 
 
 
-.content{
-  width:100%;
-}
+
 
 
 .container{

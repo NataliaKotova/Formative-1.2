@@ -3,70 +3,10 @@
   width:241px;
 }
 
-.content__artists--container{
-  position: relative;
-  margin-bottom: 20px;
-  height:275px;
-  width:100%;
-}
-
-.content__artists--image-right{
-  width:80%;
-  float:right;
-}
-
-.content__artists--name-right{
-  position:absolute;
-  right:20px;
-  color:black;
-  text-align:right;
-}
-.content__artists--image-right-croped{
-  width:80%;
-  float:left;
-}
-.content__artists--background{
-  position:absolute;
-  z-index:-1;
-  background-color:$tertiaryColor;
-  width:60%;
-  height:100%;
-}
-
-.content__artists--background-right{
-  right:20px;
-}
-
-.content__artists--background-left{
-  left:20px;
-}
-
-.content__artists--image-left{
-  width:80%;
-  float:left;
-  margin-left:25px;
-}
-.content__artists--name-left{
-  position:absolute;
-  left:20px;
-  color:black;
-  text-align:left;
-}
-
-.content__artists--name-right, 
-.content__artists--name-left{
-  margin:10px;
-  font-weight: bold;
-}
-
 .clearFix{
   clear:both;
   content:"";
   display:block;
-}
-
-.content__contact--contact-info{
-  
 }
 
 
