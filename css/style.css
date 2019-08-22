@@ -84,6 +84,9 @@ h2 {
   margin: 30px;
   margin: 0 auto; }
 
+.content__about {
+  font-size: 24px; }
+
 .content__about--footer {
   width: 90%;
   display: block;
@@ -386,7 +389,7 @@ input, textarea {
     padding-top: 120px;
     padding-left: 18%; }
 
-  .content__booking-flex {
+  .content__flex {
     display: flex;
     width: 80%;
     align-items: center;
